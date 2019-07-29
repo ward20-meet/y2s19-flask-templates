@@ -1,1 +1,13 @@
-<!-- Put the HTML template for your page here! -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+<h1> Kosa W Warak</h1>
+<p> Because i like it </p>
+
+
+{% for fruit in fruits %}
+<p> {{fruit}} </p>
+{% endfor %}
+
+
+
+
